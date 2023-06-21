@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Verydarkcyan: hsl(183, 100%, 15%);
+  --Darkgrayishcyan: hsl(186, 14%, 43%);
+  --Grayishcyan: hsl(184, 14%, 56%);
+  --Lightgrayishcyan: hsl(185, 41%, 84%);
+  --Verylightgrayishcyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+  --Strongcyan: hsl(172, 67%, 45%);
+}
+.p-div {
+  height: 100vh;
+  background-color: var(--Lightgrayishcyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.baby {
+  height: 300px;
+  width: 700px;
+  background-color: var(--White);
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+}
+.b-div {
+  height: 100%;
+  width: 50%;
+  border-radius: 20%;
+}
+.c-div {
+  height: 100%;
+  width: 50%;
+  background-color: var(--Verydarkcyan);
+  border-radius: 20px;
+  color: var(--White);
+  padding: 0 25px;
+  font-family: "Space Mono", monospace;
+}
+.top,
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.top h4,
+.foot h4 {
+  font-size: 10px;
+}
+.top p,
+.foot p {
+  font-size: 9px;
+}
+.top .right,
+.foot .right {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--Strongcyan);
+}
+.top {
+  margin-top: 40px;
+}
+.btn {
+  margin-top: 80px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: var(--Strongcyan);
+  border-radius: 6px;
+  text-align: center;
+  color: var(--Verydarkcyan);
+  font-weight: 700;
+}
+.text {
+  padding-right: 20px;
+  font-family: "Space Mono", monospace;
+}
+.text h5 {
+  color: var(--Verydarkcyan);
+}
+.doll {
+  padding: 8px 12px;
+  width: 90%;
+  background-color: var(--Verylightgrayishcyan);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.doll h4 {
+  color: var(--Grayishcyan);
+}
+.doll p {
+  font-weight: 600;
+  color: var(--Verydarkcyan);
+}
+.tip-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.tip-select {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.tip-per {
+  padding: 8px 0;
+
+  width: 31% !important;
+  background-color: var(--Verydarkcyan);
+  border-radius: 3px;
+  color: var(--White);
+  font-weight: 600;
+}
+.sec {
+  margin-top: 10px;
+}
+.tiptop {
+  background-color: var(--Strongcyan);
+  color: var(--Verydarkcyan);
+  font-weight: 600;
+}
+.tiptap {
+  background-color: var(--Verylightgrayishcyan);
+  color: var(--Darkgrayishcyan);
+  font-weight: 600;
+}
+
+.pipu {
+  margin-top: 20px;
+  color: var(--Darkgrayishcyan) !important;
+  font-weight: 500;
+  font-size: 12px;
+}
+.doll i {
+  color: var(--Grayishcyan);
+  font-size: 10px;
+}
